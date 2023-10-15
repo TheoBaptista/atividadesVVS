@@ -17,7 +17,7 @@ public class VolumeTest {
     private VolumeUtil volumeUtil; // 2 - Injete um mock da classe VolumeUtil
 
     @Test
-    public void testAudioManagerSetVolume() {
+    void testAudioManagerSetVolume() {
         // 3 - Realize uma chamada para o método maximizeVolume do objeto VolumeUtil
         volumeUtil.maximizeVolume(100);
 
